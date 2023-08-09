@@ -1,12 +1,3 @@
-/*
-html { 
-  background: url(images/bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
- } */
-
 
 body {
 	background-image: url("background.jpg");
@@ -15,34 +6,7 @@ body {
 	opacity: 0.9;
 }
 
-div {  
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
-  margin-bottom: auto;
 
-
-  width: 15%;
-	
-}
-
-h1: hover  {
-	display: none;
-	transform: scale(1.2);
-	}
-
-
-.form {
-	display: block;
-	position: fixed;
-	bottom: 500px;
-	right: 965px;
-	align-items: center;
-	align-content: center;
-
-
-}	
 h1 {
 	font-size: ;
 		text-align: inherit;
@@ -58,15 +22,8 @@ h1 {
 
 	}
 
-.btn: hover {
-	background-color: yellow;
 
-	}
-hr {
-	border-color: green;
-	border-width: 4px;
-	max-width: 150px;
-}
+
 .btn-primary {	
     background-color: #F05F44;	
     border-color: #F05F44;	
@@ -75,4 +32,29 @@ hr {
 }
 .buffer {
 	height: 30px;
+}
+.door {
+	text-align: center;
+	
+	position: relative;
+  width: 50%; /* Adjust as needed */
+
+	
+}
+.container {
+	margin-top: 7%;
+	position: relative;
+  width: 50%; /* Adjust as needed */
+  max-width: 600px; /* Set a maximum width for the container */
+display: grid;
+	grid-template-start:1;
+}
+.form {
+	position: absolute;
+  top: 40%; /* Adjust to position vertically */
+  left: 70%; /* Adjust to position horizontally */
+  transform: translate(-50%, -50%);
+  
+  padding: 10px;
+  border-radius: 5px;
 }
