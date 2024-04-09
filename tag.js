@@ -2336,3 +2336,13 @@ lpTag.agentSDK = lpTag.agentSDK || function() {
     j || (b.PostMessageCourier = b.PostMessageCourier || k);
     return k
 });
+
+lpTag.identities=[];
+lpTag.identities.push(identityFn);
+function identityFn(callback) {
+	callback({
+		iss: 'iss',
+		acr: 'hgh',
+		sub: 'jj'
+	});
+}
